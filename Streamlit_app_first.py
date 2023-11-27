@@ -18,7 +18,7 @@ my_fruit_list = fruit_list.set_index('Fruit')
 fruits_selected= streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Apple','Banana'])
 fruits_to_show= my_fruit_list.loc[fruits_selected]
 
---numbers.loc[1,2,3]
+#numbers.loc[1,2,3]
 
 # Display the table on the page.
 streamlit.dataframe(fruit_list)
