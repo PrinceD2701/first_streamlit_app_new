@@ -21,4 +21,4 @@ fruits_to_show= my_fruit_list.loc[fruits_selected]
 #numbers.loc[1,2,3]
 
 # Display the table on the page.
-streamlit.dataframe(fruit_list)
+streamlit.dataframe(fruits_to_show)
